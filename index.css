@@ -3,8 +3,8 @@
     display:grid;
     place-items:center; 
     position:relative;
-    height: 650px; 
-    width: 500px;
+    height: 1336px; 
+    width: 768px;
     background:#191919;
     border-radius:10px;
     overflow: hidden;
@@ -35,4 +35,7 @@
     background:#191919; 
     inset:3px; 
     border-radius:5px;
+}
+.btns {
+    z-index: 1;
 }
