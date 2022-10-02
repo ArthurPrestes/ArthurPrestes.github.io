@@ -70,8 +70,7 @@ header {
 }
 
 .icon {
-    height: 50rem;
-    width: 50rem;
+    height: 3rem;
 }
 @media screen and (max-width: 730px) {
     .nav-bar {
