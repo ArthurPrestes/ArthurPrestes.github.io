@@ -68,6 +68,11 @@ header {
 .mobile-menu {
     display: none;
 }
+
+.icon {
+    height: 50px;
+    width: 50px;
+}
 @media screen and (max-width: 730px) {
     .nav-bar {
         padding: 1.5rem 4rem;
