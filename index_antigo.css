@@ -1,0 +1,41 @@
+
+.container {
+    display:grid;
+    place-items:center; 
+    position:relative;
+    height: 857px; 
+    width: 768px;
+    background:#191919;
+    border-radius:10px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.container::before {
+    content:'';
+    width: 250px;
+    height: 1300px;
+    left: 150px; 
+    top: -250px;
+    position:absolute;
+    background: linear-gradient(#00e5ff, #b400fb ); 
+    animation:animate 10s linear infinite;
+}
+
+@keyframes animate{
+    0% { transform:rotate(0deg); }
+
+    100% { transform:rotate(360deg); }
+}
+
+.container::after{
+    content:'';
+    position:absolute; 
+    background:#191919; 
+    inset:3px; 
+    border-radius:5px;
+}
+.btns {
+    z-index: 1;
+}
